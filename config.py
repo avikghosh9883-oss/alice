@@ -14,7 +14,7 @@ API_HASH = "63ba937ff726aa65ef2650188dbcc891"
 BOT_TOKEN = "8322904378:AAEzEn9nkC6KcO4S7XbsHaswlQ-pFOOyFc8"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://Infinity:Infinity@cluster0.hzgyqwv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://avikghosh:avikghosh@cluster0.koohwzp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -112,6 +112,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
